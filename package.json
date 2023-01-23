@@ -50,6 +50,7 @@
     "react-dev-utils": "^12.0.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-lottie": "^1.2.3",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^6.7.0",
     "react-type-animation": "^2.1.2",
@@ -150,6 +151,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-lottie": "^1.2.6",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^31.0.0",

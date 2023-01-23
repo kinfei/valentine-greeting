@@ -1,18 +1,11 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
-import DisplayName from './components/DisplayName';
-import HeartBubble from './components/HeartBubble';
 
-function App (): JSX.Element {
-  const { search } = useLocation();
-  const name = new URLSearchParams(search).get('name');
+import LottiePlayer from './components/LottiePlayer';
 
-  return (
-    <>
-      <DisplayName name={name} />
-      <HeartBubble />
-    </>
-  );
+import animationData from './assets/valentine.json';
+
+function App(): JSX.Element {
+  return <LottiePlayer animationData={animationData} />;
 }
 
 export default App;
