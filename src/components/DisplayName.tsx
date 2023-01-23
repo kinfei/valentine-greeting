@@ -2,29 +2,14 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import styles from './DisplayName.less';
 
-const seconds = 1800;
+function DisplayName({ name }: { name: string | null }): JSX.Element {
+  const sequence = [`Hi ${name}...`, 2400];
 
-function DisplayName({ name = '' }: { name: string | null }): JSX.Element {
-  const sequence = [
-    `Hi ${name}❤️`,
-    seconds,
-    'Happy valentine to you',
-    seconds,
-    'You’re the bright spot in my day, every day.',
-    seconds,
-    'Love you 3000',
-    seconds,
-    'I love you more than ever.',
-    seconds
-  ];
-
-  if (!name) {
-    sequence.splice(0, 2);
-  }
+  if (!name) return <></>;
 
   return (
     <div className={styles.typing}>
-      <TypeAnimation cursor={false} sequence={sequence} speed={60} wrapper='h1' repeat={Infinity} />
+      <TypeAnimation cursor={true} sequence={sequence} speed={70} wrapper='h1' repeat={Infinity} />
     </div>
   );
 }
