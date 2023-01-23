@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.72c41c00.css",
-    "main.js": "/static/js/main.a3121af8.js",
-    "static/js/787.b4c793f8.chunk.js": "/static/js/787.b4c793f8.chunk.js",
-    "index.html": "/index.html",
-    "main.72c41c00.css.map": "/static/css/main.72c41c00.css.map",
-    "main.a3121af8.js.map": "/static/js/main.a3121af8.js.map",
-    "787.b4c793f8.chunk.js.map": "/static/js/787.b4c793f8.chunk.js.map"
+    "main.css": "/valentine-greeting/static/css/main.72c41c00.css",
+    "main.js": "/valentine-greeting/static/js/main.0e3f0858.js",
+    "static/js/787.b4c793f8.chunk.js": "/valentine-greeting/static/js/787.b4c793f8.chunk.js",
+    "index.html": "/valentine-greeting/index.html",
+    "main.72c41c00.css.map": "/valentine-greeting/static/css/main.72c41c00.css.map",
+    "main.0e3f0858.js.map": "/valentine-greeting/static/js/main.0e3f0858.js.map",
+    "787.b4c793f8.chunk.js.map": "/valentine-greeting/static/js/787.b4c793f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72c41c00.css",
-    "static/js/main.a3121af8.js"
+    "static/js/main.0e3f0858.js"
   ]
 }
